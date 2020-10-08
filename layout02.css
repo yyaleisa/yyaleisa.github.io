@@ -3,13 +3,13 @@ body {
 }
 
 header {
-  backround-color: #ffbb99;
+  background-color: #ffbb99;
   width: 100%;
   height: 28vh;
 }
 
 nav {
-  backround-color: #ff9966;
+  background-color: #ff9966;
   width: 100%;
   height: 5vh;
 }
@@ -20,26 +20,25 @@ main {
 }
 
 section {
-  backround-color: #ff7733;
+  background-color: #ff7733;
   height: 30vh;
 }
 
 article {
-  backround-color: #ff5500;
+  background-color: #ff5500;
   height: 30vh;
 }
 
 aside {
-  backround-color: #cc4400;
+  background-color: #cc4400;
   width: 35%;
   float: left;
-  min-height: 68vh;
+  min-height: 60vh;
 }
 
 footer {
-  backround-color: #993300;
+  background-color: #993300;
   width: 100%;
   float: left;
   height: 10vh;
 }
-
