@@ -32,13 +32,69 @@
 	
 	var c = document.getElementById('myCanvas');
 	var ctx = c.getContext("2d");
+     
+ctx.beginPath();
+ctx.rect(70, 60, 200, 160);
+ctx.fillStyle = "#bfbfbf";
+ctx.fill()     
+ctx.stroke();     
+     
+ctx.beginPath();
+ctx.rect(70, 60, 100, 160);
+ctx.fillStyle = " #ccccff";
+ctx.fill()     
+ctx.stroke(); 
+     
+ctx.beginPath();
+ctx.rect(120, 174, 90, 40);
+ctx.fillStyle = "#000000";
+ctx.fill()     
+ctx.stroke();  
+     
+ctx.beginPath();
+ctx.rect(120, 170, 90, 130);
+ctx.fillStyle = "#e0e0d1";
+ctx.fill()     
+ctx.stroke();      
+     
 
 ctx.beginPath();
-ctx.arc(150, 75, 60, 0, 2 * Math.PI);
-ctx.stroke();		 
-		 
-	var c = document.getElementById('secondCanvas');
-	var ctx = c.getContext("2d");
+ctx.arc(100, 115, 60, 0, 2 * Math.PI);
+ctx.fillStyle = "#000000";
+ctx.fill()
+ctx.stroke();		
+ 
+ctx.beginPath();
+ctx.arc(235, 115, 60, 0, 2 * Math.PI);
+ctx.fillStyle = "#000000";
+ctx.fill()
+ctx.stroke();
+     
+ctx.beginPath();
+ctx.arc(235, 115, 25, 0, 2 * Math.PI);
+ctx.fillStyle = "#ffffff";
+ctx.fill()
+ctx.stroke();		 	      
 
-
-		 
+ctx.beginPath();
+ctx.arc(100, 115, 25, 0, 2 * Math.PI);
+ctx.fillStyle = "#ffffff";
+ctx.fill()
+ctx.stroke();	
+ 
+ctx.beginPath();
+ctx.arc(175, 115, 25, 0, 2 * Math.PI);
+ctx.fillStyle = "#ff0000";
+ctx.fill()
+ctx.stroke();	 
+     
+ctx.beginPath();
+ctx.arc(167, 200, 25, 0, 1 * Math.PI);
+ctx.fillStyle = "#000000";
+ctx.fill()
+ctx.stroke();	 
+     
+     
+    </script>		 
+    </body>
+</html>
